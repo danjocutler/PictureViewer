@@ -75,6 +75,8 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.checkBox1.Location = new System.Drawing.Point(3, 283);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(60, 17);
@@ -99,6 +101,8 @@
             // showButton
             // 
             this.showButton.AutoSize = true;
+            this.showButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showButton.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.showButton.Location = new System.Drawing.Point(357, 3);
             this.showButton.Name = "showButton";
             this.showButton.Size = new System.Drawing.Size(88, 23);
@@ -110,6 +114,8 @@
             // clearButton
             // 
             this.clearButton.AutoSize = true;
+            this.clearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearButton.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.clearButton.Location = new System.Drawing.Point(257, 3);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(94, 23);
@@ -121,6 +127,8 @@
             // backgroundButton
             // 
             this.backgroundButton.AutoSize = true;
+            this.backgroundButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backgroundButton.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.backgroundButton.Location = new System.Drawing.Point(108, 3);
             this.backgroundButton.Name = "backgroundButton";
             this.backgroundButton.Size = new System.Drawing.Size(143, 23);
@@ -132,6 +140,9 @@
             // closeButton
             // 
             this.closeButton.AutoSize = true;
+            this.closeButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.closeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closeButton.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.closeButton.Location = new System.Drawing.Point(27, 3);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 23);
@@ -149,10 +160,14 @@
             // 
             // Form1
             // 
+            this.AcceptButton = this.showButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.closeButton;
             this.ClientSize = new System.Drawing.Size(534, 312);
+            this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Picture Viewer";
             this.tableLayoutPanel1.ResumeLayout(false);
