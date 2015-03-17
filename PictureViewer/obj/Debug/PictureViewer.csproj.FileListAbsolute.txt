@@ -1,0 +1,9 @@
+c:\users\dan\documents\visual studio 2013\Projects\PictureViewer\PictureViewer\bin\Debug\PictureViewer.exe.config
+c:\users\dan\documents\visual studio 2013\Projects\PictureViewer\PictureViewer\bin\Debug\PictureViewer.exe
+c:\users\dan\documents\visual studio 2013\Projects\PictureViewer\PictureViewer\bin\Debug\PictureViewer.pdb
+c:\users\dan\documents\visual studio 2013\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.csprojResolveAssemblyReference.cache
+c:\users\dan\documents\visual studio 2013\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.Properties.Resources.resources
+c:\users\dan\documents\visual studio 2013\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.csproj.GenerateResource.Cache
+c:\users\dan\documents\visual studio 2013\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.exe
+c:\users\dan\documents\visual studio 2013\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.pdb
+c:\users\dan\documents\visual studio 2013\Projects\PictureViewer\PictureViewer\obj\Debug\PictureViewer.Form1.resources
